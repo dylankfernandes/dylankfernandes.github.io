@@ -1,5 +1,5 @@
 module.exports = {
-  siteTitle: 'Gatsby Starter SolidState', // <title>
+  siteTitle: 'Dylan K. Fernandes', // <title>
   manifestName: 'SolidState',
   manifestShortName: 'Landing', // max 12 characters
   manifestStartUrl: '/',
@@ -7,32 +7,32 @@ module.exports = {
   manifestThemeColor: '#663399',
   manifestDisplay: 'standalone',
   manifestIcon: 'src/assets/img/website-icon.png',
-  pathPrefix: `/gatsby-starter-solidstate/`, // This path is subpath of your hosting https://domain/portfolio
-  heading: 'Anubhav Srivastava',
-  subHeading: 'Full time Web Developer. Part time Open source contributor  ',
+  // pathPrefix: `/gatsby-starter-solidstate/`, // This path is subpath of your hosting https://domain/portfolio
+  heading: 'Dylan K. Fernandes',
+  subHeading: 'programmer, college student, blogger, self development geek',
   // social
   socialLinks: [
     {
       icon: 'fa-github',
       name: 'Github',
-      url: 'https://github.com/anubhavsrivastava',
+      url: 'https://github.com/dylankfernandes',
     },
     {
       icon: 'fa-twitter',
       name: 'Twitter',
-      url: 'https://twitter.com/onlyanubhav',
+      url: 'https://twitter.com/dylankfernandes',
     },
     {
       icon: 'fa-facebook',
       name: 'Facebook',
-      url: 'https://facebook.com/theanubhav',
+      url: 'https://www.facebook.com/dylan.fernandes.37853',
     },
     {
       icon: 'fa-envelope-o',
       name: 'Email',
-      url: 'mailto:anubhav.srivastava00@gmail.com',
+      url: 'mailto:dylan.fernandes00@gmail.com',
     },
   ],
-  phone: '000-00000',
-  address: '305 Del Sol, Sunnyvale, CA',
+  phone: '571-379-6359',
+  address: '13066 Invergordon St, Bristow VA',
 };
