@@ -9,45 +9,113 @@ const IndexPage = () => (
     <section id="wrapper">
       <header>
         <div className="inner">
-          <h2>Generic</h2>
-          <p>Phasellus non pulvinar erat. Fusce tincidunt nisl eget ipsum.</p>
+          <h2>Portfolio</h2>
+          <p>What I've built and what I've learned </p>
         </div>
       </header>
 
       <div className="wrapper">
         <div className="inner">
-          <h3 className="major">Lorem ipsum dolor</h3>
+          <h3 className="major">Data Science and Machine Learning</h3>
           <p>
-            Morbi mattis mi consectetur tortor elementum, varius pellentesque
-            velit convallis. Aenean tincidunt lectus auctor mauris maximus, ac
-            scelerisque ipsum tempor. Duis vulputate ex et ex tincidunt, quis
-            lacinia velit aliquet. Duis non efficitur nisi, id malesuada justo.
-            Maecenas sagittis felis ac sagittis semper. Curabitur purus leo
-            donec vel dolor at arcu tincidunt bibendum. Interdum et malesuada
-            fames ac ante ipsum primis in faucibus. Fusce ut aliquet justo.
-            Donec id neque ipsum. Integer eget ultricies odio. Nam vel ex a orci
-            fringilla tincidunt. Aliquam eleifend ligula non velit accumsan
-            cursus. Etiam ut gravida sapien.
+            I found data science and machine learning in my junior year of high school.
+            A friend of mine had been gushing over neural networks for weeks, and he encouraged
+            me to look into it. It led me to take <a href="https://www.coursera.org/learn/machine-learning?"> Andrew
+            Ng's Machine Learning course</a> on Coursera. It was my first experience with a MOOC (Massive Open
+            Online Course), and would the first of many that I would take over the next few years.
           </p>
 
+          <h4>Courses That I've Taken</h4>
+          <ul>
+            <li><a href="https://www.coursera.org/specializations/deep-learning">Deep Learning Specialization</a>
+              <ul>
+                <li><a href="https://www.coursera.org/learn/neural-networks-deep-learning?specialization=deep-learning">Neural Networks and Deep Learning</a></li>
+                <li><a href="https://www.coursera.org/learn/deep-neural-network?specialization=deep-learning">Improving Deep Neural Networks</a></li>
+                <li><a href="https://www.coursera.org/learn/machine-learning-projects?specialization=deep-learning">Structuring Machine Learning Projects</a></li>
+                <li><a href="https://www.coursera.org/learn/convolutional-neural-networks?specialization=deep-learning">Convolutional Neural Networks</a></li>
+                <li><a href="https://www.coursera.org/learn/nlp-sequence-models">Sequence Models</a></li>
+              </ul>
+            </li>
+            <li><a href="https://www.coursera.org/specializations/tensorflow-in-practice">Tensorflow in Practice Specialization</a>
+              <ul>
+                <li><a href="https://www.coursera.org/learn/introduction-tensorflow">Introduction to Tensorflow</a></li>
+                <li><a href="https://www.coursera.org/learn/convolutional-neural-networks-tensorflow">Convolutional Neural Networks in Tensorflow</a></li>
+                <li><a href="https://www.coursera.org/learn/natural-language-processing-tensorflow">Natural Language Processing in Tensorflow</a></li>
+                <li><a href="https://www.coursera.org/learn/tensorflow-sequences-time-series-and-prediction">Sequences, Time Series, and Prediction</a></li>
+              </ul>
+            </li>
+          </ul>
+
+          <ul>
+            <li><a href="https://pythonprogramming.net/">Python Programming</a>
+              <ul>
+                <li><a href="https://pythonprogramming.net/introduction-python3-pandas-data-analysis/">Data Analysis with Python and Pandas</a></li>
+                <li><a href="https://pythonprogramming.net/matplotlib-intro-tutorial/">Data Visualization</a></li>
+                <li><a href="https://pythonprogramming.net/machine-learning-tutorials/">Practical Machine Learning with Python</a></li>
+                <li><a href="https://pythonprogramming.net/q-learning-reinforcement-learning-python-tutorial/">Reinforcement Learning</a></li>
+                <li><a href="https://pythonprogramming.net/quantum-computer-programming-tutorial/">Quantum Computer Programming</a></li>
+              </ul>
+            </li>
+          </ul>
+
+          <h4>Teaching Experience</h4>
           <p>
-            Vestibulum ultrices risus velit, sit amet blandit massa auctor sit
-            amet. Sed eu lectus sem. Phasellus in odio at ipsum porttitor mollis
-            id vel diam. Praesent sit amet posuere risus, eu faucibus lectus.
-            Vivamus ex ligula, tempus pulvinar ipsum in, auctor porta quam.
-            Proin nec commodo, vel scelerisque nisi scelerisque. Suspendisse id
-            quam vel tortor tincidunt suscipit. Nullam auctor orci eu dolor
-            consectetur, interdum ullamcorper ante tincidunt. Mauris felis nec
-            felis elementum varius.
+            As the President of the Machine Learning Club At UVA (MLC@UVA), I've taught workshops
+            in Deep Learning and Image Processing.
+          </p>
+          <ul>
+            <li>Fall 2019 - Autoencoders and CVAE</li>
+            <li>Spring 2020 (Planned) - Neural Style Transfer</li>
+            <li>Spring 2020 (Planned) - GANs</li>
+          </ul>
+
+          <p>
+            As the Data Analayst Co-VP for HooThinks Consulting Club at UVA, I taught
+            a series of beginner data analytics workshops to prepare consultants. In Spring
+            2020, I'll be teaching an intermediate series of workshops.
           </p>
 
-          <h3 className="major">Vitae phasellus</h3>
-          <p>
-            Cras mattis ante fermentum, malesuada neque vitae, eleifend erat.
-            Phasellus non pulvinar erat. Fusce tincidunt, nisl eget mattis
-            egestas, purus ipsum consequat orci, sit amet lobortis lorem lacus
-            in tellus. Sed ac elementum arcu. Quisque placerat auctor laoreet.
-          </p>
+          <ul>
+            <li>Beginner Workshops - Fall 2019
+              <ul>
+                <li>Data Visualization (Matplotlib/Seaborn) <a href="https://tinyurl.com/hoothinks-data-viz">Notebook</a></li>
+                <li>Data Analysis (Pandas/Numpy) <a href="https://tinyurl.com/hoothinks-data-analysis">Notebook</a></li>
+                <li>Web Scraping (BeautifulSoup/Twitter) <a href="https://tinyurl.com/hoothinks-web-scraping">Notebook</a></li>
+                <li>Time Series Analysis (Statsmodels/Prophet) <a href="https://tinyurl.com/hoothinks-time-series">Notebook</a></li>
+                <li>Machine Learning (Scikit-Learn) <a href="https://tinyurl.com/hoothinks-machine-learning">Notebook</a></li>
+              </ul>
+            </li>
+            <li>Intermediate Workshops - Spring 2020
+              <ul>
+                <li>Development Environment Setup (Anaconda/Jupyter/VS Code)</li>
+                <li>Introduction to GitHub (GitHub/Git Bash)</li>
+                <li>Effective Presentation of Data (Matplotlib/Seaborn) <a href="https://tinyurl.com/hoothinks-effective-data-viz">Notebooks/Sample Project/Slides</a></li>
+                <li>Working with APIs (Curl/Postman)</li>
+                <li>Natural Language Processing (Gensim/spaCy) <a href="https://tinyurl.com/hoothinks-nlp">Notebook, Sample Project, and  Slides</a></li>
+              </ul>
+            </li>
+          </ul>
+
+          <h4>Skills Acquired</h4>
+          <p></p>
+          <ul style={{
+            columns: 3
+          }}>
+            <li>Tensorflow</li>
+            <li>PyTorch</li>
+            <li>spaCy</li>
+            <li>Gensim</li>
+            <li>Pandas</li>
+            <li>Numpy</li>
+            <li>Seaborn</li>
+            <li>Matplotlib</li>
+            <li>Sci-kit Learn</li>
+            <li>Statsmodels</li>
+            <li>NLTK</li>
+            <li>DGL (Deep Graph Learning)</li>
+            <li>BeautifulSoup</li>
+            <li>Prophet</li>
+          </ul>
 
           <section className="features">
             <article>
@@ -76,11 +144,14 @@ const IndexPage = () => (
                 Learn more
               </a>
             </article>
+            <a href="https://github.com/dylankfernandes" className="button">
+              Check out my GitHub
+            </a>
           </section>
         </div>
       </div>
     </section>
-  </Layout>
+  </Layout >
 );
 
 export default IndexPage;
