@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'gatsby';
 
 import Layout from '../components/Layout';
 
@@ -9,6 +10,7 @@ import pic4 from '../assets/images/pic04.jpg';
 import pic5 from '../assets/images/pic05.jpg';
 import pic6 from '../assets/images/pic06.jpg';
 import pic7 from '../assets/images/pic07.jpg';
+import resume from '../assets/dylanfernandes_resume.pdf';
 
 import config from '../../config';
 const IndexPage = () => (
@@ -20,6 +22,8 @@ const IndexPage = () => (
         </div>
         <h2>{config.heading}</h2>
         <p>{config.subHeading}</p>
+        {/* <a href="/#" className="button">Resume</a>
+        <a href="/#" className="button">Contact Me</a> */}
       </div>
     </section>
 
@@ -30,16 +34,14 @@ const IndexPage = () => (
             <img src={pic1} alt="" />
           </a>
           <div className="content">
-            <h2 className="major">Magna arcu feugiat</h2>
+            <h2 className="major">College Student</h2>
             <p>
-              Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras
-              turpis ante, nullam sit amet turpis non, sollicitudin posuere
-              urna. Mauris id tellus arcu. Nunc vehicula id nulla dignissim
-              dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla
-              cursus.
+              I’m a second year computer science major at the University of Virginia with a
+              passion for programmer, movies, sports, weight lifting,
+              teaching, and writing. Interested? Catch my resume down below.
             </p>
-            <a href="/#" className="special">
-              Learn more
+            <a href={resume} className="special">
+              My Resume
             </a>
           </div>
         </div>
@@ -51,17 +53,14 @@ const IndexPage = () => (
             <img src={pic2} alt="" />
           </a>
           <div className="content">
-            <h2 className="major">Tempus adipiscing</h2>
+            <h2 className="major">Computer Programmer</h2>
             <p>
-              Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras
-              turpis ante, nullam sit amet turpis non, sollicitudin posuere
-              urna. Mauris id tellus arcu. Nunc vehicula id nulla dignissim
-              dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla
-              cursus.
+              In 7th grade, I found Java programming, and I've loved it ever since.
+              These days, I specialize in Machine Learning, Web Development, and Database
+              Programming. My projects and a complete list of my skills are primarily stored on <a href="https://github.com/dylankfernandes">GitHub</a>.
+              Check out my portfolio down below.
             </p>
-            <a href="/#" className="special">
-              Learn more
-            </a>
+            <Link className='special' to='/Portfolio'>My Portfolio</Link>
           </div>
         </div>
       </section>
@@ -72,40 +71,31 @@ const IndexPage = () => (
             <img src={pic3} alt="" />
           </a>
           <div className="content">
-            <h2 className="major">Nullam dignissim</h2>
+            <h2 className="major">Beyond the Resume</h2>
             <p>
-              Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras
-              turpis ante, nullam sit amet turpis non, sollicitudin posuere
-              urna. Mauris id tellus arcu. Nunc vehicula id nulla dignissim
-              dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla
-              cursus.
+              I'm a movie detente, weight lifting fanatic,
+              baseball and tennis player, and former blogger. I've also
+              got an impossible list (concept desribed here <a href="https://collegeinfogeek.com/about/meet-the-author/my-impossible-list/">here</a>)
+              that will give you a better look at who I am.
             </p>
-            <a href="/#" className="special">
-              Learn more
-            </a>
+            <Link className='special' to='/Generic'>Learn more about me</Link>
           </div>
         </div>
       </section>
 
       <section id="four" className="wrapper alt style1">
         <div className="inner">
-          <h2 className="major">Vitae phasellus</h2>
+          <h2 className="major">My Blog</h2>
           <p>
-            Cras mattis ante fermentum, malesuada neque vitae, eleifend erat.
-            Phasellus non pulvinar erat. Fusce tincidunt, nisl eget mattis
-            egestas, purus ipsum consequat orci, sit amet lobortis lorem lacus
-            in tellus. Sed ac elementum arcu. Quisque placerat auctor laoreet.
+            I write about all things productivity, academics, programming, and self development.
+            Check out my latest posts below.
           </p>
           <section className="features">
             <article>
               <a href="/#" className="image">
                 <img src={pic4} alt="" />
               </a>
-              <h3 className="major">Sed feugiat lorem</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id
-                nulla dignissim dapibus ultrices.
-              </p>
+              <h3 className="major">Become 10x more productive — kill your distractions and improve your focus</h3>
               <a href="/#" className="special">
                 Learn more
               </a>
@@ -114,11 +104,7 @@ const IndexPage = () => (
               <a href="/#" className="image">
                 <img src={pic5} alt="" />
               </a>
-              <h3 className="major">Nisl placerat</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id
-                nulla dignissim dapibus ultrices.
-              </p>
+              <h3 className="major">How to take on the day — maximize your motivation with your morning routine</h3>
               <a href="/#" className="special">
                 Learn more
               </a>
@@ -127,11 +113,7 @@ const IndexPage = () => (
               <a href="/#" className="image">
                 <img src={pic6} alt="" />
               </a>
-              <h3 className="major">Ante fermentum</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id
-                nulla dignissim dapibus ultrices.
-              </p>
+              <h3 className="major">A Complete Guide To Staying Organized for Students</h3>
               <a href="/#" className="special">
                 Learn more
               </a>
@@ -140,11 +122,7 @@ const IndexPage = () => (
               <a href="/#" className="image">
                 <img src={pic7} alt="" />
               </a>
-              <h3 className="major">Fusce consequat</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id
-                nulla dignissim dapibus ultrices.
-              </p>
+              <h3 className="major">Warren Buffett’s Productivity Hack for Prioritization</h3>
               <a href="/#" className="special">
                 Learn more
               </a>
@@ -152,7 +130,7 @@ const IndexPage = () => (
           </section>
           <ul className="actions">
             <li>
-              <a href="/#" className="button">
+              <a href="https://medium.com/@dylan.fernandes00" className="button">
                 Browse All
               </a>
             </li>

@@ -23,6 +23,11 @@ module.exports = {
       url: 'https://twitter.com/dylankfernandes',
     },
     {
+      icon: 'fa-medium',
+      name: 'Medium',
+      url: 'https://medium.com/@dylan.fernandes00',
+    },
+    {
       icon: 'fa-facebook',
       name: 'Facebook',
       url: 'https://www.facebook.com/dylan.fernandes.37853',
@@ -32,6 +37,11 @@ module.exports = {
       name: 'Email',
       url: 'mailto:dylan.fernandes00@gmail.com',
     },
+    {
+      icon: 'fa-linkedin',
+      name: 'LinkedIn',
+      url: 'https://www.linkedin.com/in/dylankfernandes/'
+    }
   ],
   phone: '571-379-6359',
   address: '13066 Invergordon St, Bristow VA',
