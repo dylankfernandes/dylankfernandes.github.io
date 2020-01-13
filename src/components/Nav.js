@@ -31,16 +31,7 @@ export default function Nav({ onMenuToggle = () => { } }) {
                 onMenuToggle();
               }}
               to="/Portfolio">
-              Portfolio / Skills
-            </Link>
-          </li>
-          <li>
-            <Link
-              onClick={e => {
-                onMenuToggle();
-              }}
-              to="/Elements">
-              Elements
+              Portfolio
             </Link>
           </li>
         </ul>

@@ -1,6 +1,6 @@
 module.exports = {
   siteTitle: 'Dylan K. Fernandes', // <title>
-  manifestName: 'SolidState',
+  manifestName: 'Dylan K. Fernandes',
   manifestShortName: 'Landing', // max 12 characters
   manifestStartUrl: '/',
   manifestBackgroundColor: '#663399',
@@ -44,5 +44,4 @@ module.exports = {
     }
   ],
   phone: '571-379-6359',
-  address: '13066 Invergordon St, Bristow VA',
 };

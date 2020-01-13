@@ -3,13 +3,17 @@ import { Link } from 'gatsby';
 
 import Layout from '../components/Layout';
 
-import pic1 from '../assets/images/pic01.jpg';
-import pic2 from '../assets/images/pic02.jpg';
-import pic3 from '../assets/images/pic03.jpg';
-import pic4 from '../assets/images/pic04.jpg';
-import pic5 from '../assets/images/pic05.jpg';
-import pic6 from '../assets/images/pic06.jpg';
-import pic7 from '../assets/images/pic07.jpg';
+import portrait from '../assets/images/portrait.jpg';
+import rotunda from '../assets/images/rotunda.jpg';
+import homebackground from '../assets/images/home__background.jpg';
+import landingbackground from '../assets/images/landing_background.jpg';
+import programmer from '../assets/images/programmer.jpg';
+
+import blogimg1 from '../assets/images/blog-img-1.jpg';
+import blogimg2 from '../assets/images/blog-img-2.jpg';
+import blogimg3 from '../assets/images/blog-img-3.jpg';
+import blogimg4 from '../assets/images/blog-img-4.jpg';
+
 import resume from '../assets/dylanfernandes_resume.pdf';
 
 import config from '../../config';
@@ -31,7 +35,7 @@ const IndexPage = () => (
       <section id="one" className="wrapper spotlight style1">
         <div className="inner">
           <a href="/#" className="image">
-            <img src={pic1} alt="" />
+            <img src={portrait} alt="" />
           </a>
           <div className="content">
             <h2 className="major">College Student</h2>
@@ -50,7 +54,7 @@ const IndexPage = () => (
       <section id="two" className="wrapper alt spotlight style2">
         <div className="inner">
           <a href="/#" className="image">
-            <img src={pic2} alt="" />
+            <img src={programmer} alt="" />
           </a>
           <div className="content">
             <h2 className="major">Computer Programmer</h2>
@@ -68,7 +72,7 @@ const IndexPage = () => (
       <section id="three" className="wrapper spotlight style3">
         <div className="inner">
           <a href="/#" className="image">
-            <img src={pic3} alt="" />
+            <img src={homebackground} alt="" />
           </a>
           <div className="content">
             <h2 className="major">Beyond the Resume</h2>
@@ -92,38 +96,38 @@ const IndexPage = () => (
           </p>
           <section className="features">
             <article>
-              <a href="/#" className="image">
-                <img src={pic4} alt="" />
+              <a href="https://medium.com/swlh/become-10x-more-productive-kill-your-distractions-and-improve-your-focus-ddfa6c7397c8" className="image">
+                <img src={blogimg1} alt="" />
               </a>
               <h3 className="major">Become 10x more productive — kill your distractions and improve your focus</h3>
-              <a href="/#" className="special">
+              <a href="https://medium.com/swlh/become-10x-more-productive-kill-your-distractions-and-improve-your-focus-ddfa6c7397c8" className="special">
                 Learn more
               </a>
             </article>
             <article>
-              <a href="/#" className="image">
-                <img src={pic5} alt="" />
+              <a href="https://medium.com/swlh/how-to-take-on-the-day-maximize-your-motivation-with-your-morning-routine-c1c3663eef54" className="image">
+                <img src={blogimg2} alt="" />
               </a>
               <h3 className="major">How to take on the day — maximize your motivation with your morning routine</h3>
-              <a href="/#" className="special">
+              <a href="https://medium.com/swlh/how-to-take-on-the-day-maximize-your-motivation-with-your-morning-routine-c1c3663eef54" className="special">
                 Learn more
               </a>
             </article>
             <article>
-              <a href="/#" className="image">
-                <img src={pic6} alt="" />
+              <a href="https://medium.com/@dylan.fernandes00/a-complete-guide-to-staying-organized-for-students-33866af5b326" className="image">
+                <img src={blogimg3} alt="" />
               </a>
               <h3 className="major">A Complete Guide To Staying Organized for Students</h3>
-              <a href="/#" className="special">
+              <a href="https://medium.com/@dylan.fernandes00/a-complete-guide-to-staying-organized-for-students-33866af5b326" className="special">
                 Learn more
               </a>
             </article>
             <article>
-              <a href="/#" className="image">
-                <img src={pic7} alt="" />
+              <a href="https://medium.com/@dylan.fernandes00/warren-buffetts-productivity-hack-for-prioritization-2d2b9b9383a9" className="image">
+                <img src={blogimg4} alt="" />
               </a>
               <h3 className="major">Warren Buffett’s Productivity Hack for Prioritization</h3>
-              <a href="/#" className="special">
+              <a href="https://medium.com/@dylan.fernandes00/warren-buffetts-productivity-hack-for-prioritization-2d2b9b9383a9" className="special">
                 Learn more
               </a>
             </article>
