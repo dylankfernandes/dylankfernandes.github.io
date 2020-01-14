@@ -27,7 +27,7 @@ const IndexPage = () => (
           </ul>
           <p>
             I've listed technologies I've worked with, my teaching experience, some courses I've taken, and my portfolio projects down below.
-            For a complete list of my projects, check out my <a href="https://github.com/dylankfernandes">GitHub</a> page.
+            For a complete list of my projects, check out my <a target="_blank" rel="noopener noreferrer" href="https://github.com/dylankfernandes">GitHub</a> page.
           </p>
 
           <div className="image fit">
@@ -38,40 +38,40 @@ const IndexPage = () => (
           <p>
             I found data science and machine learning in my junior year of high school.
             A friend of mine had been gushing over neural networks for weeks, and he encouraged
-            me to look into it. It led me to take <a href="https://www.coursera.org/learn/machine-learning?"> Andrew
+            me to look into it. It led me to take <a target="_blank" rel="noopener noreferrer" href="https://www.coursera.org/learn/machine-learning?"> Andrew
             Ng's Machine Learning course</a> on Coursera. It was my first experience with a MOOC (Massive Open
             Online Course), and would the first of many that I would take over the next few years.
           </p>
 
           <h3>Courses That I've Taken</h3>
           <ul>
-            <li><a href="https://www.coursera.org/specializations/deep-learning">Deep Learning Specialization</a>
+            <li><a target="_blank" rel="noopener noreferrer" href="https://www.coursera.org/specializations/deep-learning">Deep Learning Specialization</a>
               <ul>
-                <li><a href="https://www.coursera.org/learn/neural-networks-deep-learning?specialization=deep-learning">Neural Networks and Deep Learning</a></li>
-                <li><a href="https://www.coursera.org/learn/deep-neural-network?specialization=deep-learning">Improving Deep Neural Networks</a></li>
-                <li><a href="https://www.coursera.org/learn/machine-learning-projects?specialization=deep-learning">Structuring Machine Learning Projects</a></li>
-                <li><a href="https://www.coursera.org/learn/convolutional-neural-networks?specialization=deep-learning">Convolutional Neural Networks</a></li>
-                <li><a href="https://www.coursera.org/learn/nlp-sequence-models">Sequence Models</a></li>
+                <li><a target="_blank" rel="noopener noreferrer" href="https://www.coursera.org/learn/neural-networks-deep-learning?specialization=deep-learning">Neural Networks and Deep Learning</a></li>
+                <li><a target="_blank" rel="noopener noreferrer" href="https://www.coursera.org/learn/deep-neural-network?specialization=deep-learning">Improving Deep Neural Networks</a></li>
+                <li><a target="_blank" rel="noopener noreferrer" href="https://www.coursera.org/learn/machine-learning-projects?specialization=deep-learning">Structuring Machine Learning Projects</a></li>
+                <li><a target="_blank" rel="noopener noreferrer" href="https://www.coursera.org/learn/convolutional-neural-networks?specialization=deep-learning">Convolutional Neural Networks</a></li>
+                <li><a target="_blank" rel="noopener noreferrer" href="https://www.coursera.org/learn/nlp-sequence-models">Sequence Models</a></li>
               </ul>
             </li>
-            <li><a href="https://www.coursera.org/specializations/tensorflow-in-practice">Tensorflow in Practice Specialization</a>
+            <li><a target="_blank" rel="noopener noreferrer" href="https://www.coursera.org/specializations/tensorflow-in-practice">Tensorflow in Practice Specialization</a>
               <ul>
-                <li><a href="https://www.coursera.org/learn/introduction-tensorflow">Introduction to Tensorflow</a></li>
-                <li><a href="https://www.coursera.org/learn/convolutional-neural-networks-tensorflow">Convolutional Neural Networks in Tensorflow</a></li>
-                <li><a href="https://www.coursera.org/learn/natural-language-processing-tensorflow">Natural Language Processing in Tensorflow</a></li>
-                <li><a href="https://www.coursera.org/learn/tensorflow-sequences-time-series-and-prediction">Sequences, Time Series, and Prediction</a></li>
+                <li><a target="_blank" rel="noopener noreferrer" href="https://www.coursera.org/learn/introduction-tensorflow">Introduction to Tensorflow</a></li>
+                <li><a target="_blank" rel="noopener noreferrer" href="https://www.coursera.org/learn/convolutional-neural-networks-tensorflow">Convolutional Neural Networks in Tensorflow</a></li>
+                <li><a target="_blank" rel="noopener noreferrer" href="https://www.coursera.org/learn/natural-language-processing-tensorflow">Natural Language Processing in Tensorflow</a></li>
+                <li><a target="_blank" rel="noopener noreferrer" href="https://www.coursera.org/learn/tensorflow-sequences-time-series-and-prediction">Sequences, Time Series, and Prediction</a></li>
               </ul>
             </li>
           </ul>
 
           <ul>
-            <li><a href="https://pythonprogramming.net/">Python Programming</a>
+            <li><a target="_blank" rel="noopener noreferrer" href="https://pythonprogramming.net/">Python Programming</a>
               <ul>
-                <li><a href="https://pythonprogramming.net/introduction-python3-pandas-data-analysis/">Data Analysis with Python and Pandas</a></li>
-                <li><a href="https://pythonprogramming.net/matplotlib-intro-tutorial/">Data Visualization</a></li>
-                <li><a href="https://pythonprogramming.net/machine-learning-tutorials/">Practical Machine Learning with Python</a></li>
-                <li><a href="https://pythonprogramming.net/q-learning-reinforcement-learning-python-tutorial/">Reinforcement Learning</a></li>
-                <li><a href="https://pythonprogramming.net/quantum-computer-programming-tutorial/">Quantum Computer Programming</a></li>
+                <li><a target="_blank" rel="noopener noreferrer" href="https://pythonprogramming.net/introduction-python3-pandas-data-analysis/">Data Analysis with Python and Pandas</a></li>
+                <li><a target="_blank" rel="noopener noreferrer" href="https://pythonprogramming.net/matplotlib-intro-tutorial/">Data Visualization</a></li>
+                <li><a target="_blank" rel="noopener noreferrer" href="https://pythonprogramming.net/machine-learning-tutorials/">Practical Machine Learning with Python</a></li>
+                <li><a target="_blank" rel="noopener noreferrer" href="https://pythonprogramming.net/q-learning-reinforcement-learning-python-tutorial/">Reinforcement Learning</a></li>
+                <li><a target="_blank" rel="noopener noreferrer" href="https://pythonprogramming.net/quantum-computer-programming-tutorial/">Quantum Computer Programming</a></li>
               </ul>
             </li>
           </ul>
@@ -96,25 +96,25 @@ const IndexPage = () => (
           <ul>
             <li>Beginner Workshops - Fall 2019
               <ul>
-                <li>Data Visualization (Matplotlib/Seaborn) <a href="https://tinyurl.com/hoothinks-data-viz">Notebook</a></li>
-                <li>Data Analysis (Pandas/Numpy) <a href="https://tinyurl.com/hoothinks-data-analysis">Notebook</a></li>
-                <li>Web Scraping (BeautifulSoup/Twitter) <a href="https://tinyurl.com/hoothinks-web-scraping">Notebook</a></li>
-                <li>Time Series Analysis (Statsmodels/Prophet) <a href="https://tinyurl.com/hoothinks-time-series">Notebook</a></li>
-                <li>Machine Learning (Scikit-Learn) <a href="https://tinyurl.com/hoothinks-machine-learning">Notebook</a></li>
+                <li>Data Visualization (Matplotlib/Seaborn) <a target="_blank" rel="noopener noreferrer" href="https://tinyurl.com/hoothinks-data-viz">Notebook</a></li>
+                <li>Data Analysis (Pandas/Numpy) <a target="_blank" rel="noopener noreferrer" href="https://tinyurl.com/hoothinks-data-analysis">Notebook</a></li>
+                <li>Web Scraping (BeautifulSoup/Twitter) <a target="_blank" rel="noopener noreferrer" href="https://tinyurl.com/hoothinks-web-scraping">Notebook</a></li>
+                <li>Time Series Analysis (Statsmodels/Prophet) <a target="_blank" rel="noopener noreferrer" href="https://tinyurl.com/hoothinks-time-series">Notebook</a></li>
+                <li>Machine Learning (Scikit-Learn) <a target="_blank" rel="noopener noreferrer" href="https://tinyurl.com/hoothinks-machine-learning">Notebook</a></li>
               </ul>
             </li>
             <li>Intermediate Workshops - Spring 2020
               <ul>
                 <li>Development Environment Setup (Anaconda/Jupyter/VS Code)</li>
                 <li>Introduction to GitHub (GitHub/Git Bash)</li>
-                <li>Effective Presentation of Data (Matplotlib/Seaborn) <a href="https://tinyurl.com/hoothinks-effective-data-viz">Notebooks/Sample Project/Slides</a></li>
+                <li>Effective Presentation of Data (Matplotlib/Seaborn) <a target="_blank" rel="noopener noreferrer" href="https://tinyurl.com/hoothinks-effective-data-viz">Notebooks/Sample Project/Slides</a></li>
                 <li>Working with APIs (Curl/Postman)</li>
-                <li>Natural Language Processing (Gensim/spaCy) <a href="https://tinyurl.com/hoothinks-nlp">Notebook, Sample Project, and  Slides</a></li>
+                <li>Natural Language Processing (Gensim/spaCy) <a target="_blank" rel="noopener noreferrer" href="https://tinyurl.com/hoothinks-nlp">Notebook, Sample Project, and  Slides</a></li>
               </ul>
             </li>
           </ul>
 
-          <div className="image fit">
+          <div className="image fit">target="_blank" rel="noopener noreferrer"
             <img src={rotunda} alt="" />
           </div>
 
@@ -143,26 +143,26 @@ const IndexPage = () => (
 
           <section className="features">
             <article>
-              <a href="https://github.com/dylankfernandes/adult-income-knn/blob/master/adult-income.ipynb" className="image">
+              <a target="_blank" rel="noopener noreferrer" href="https://github.com/dylankfernandes/adult-income-knn/blob/master/adult-income.ipynb" className="image">
                 {/* <img src={pic4} alt="" /> */}
               </a>
               <h3 className="major">Adult Income Classifier</h3>
               <p>
                 Classifying income groups based on other features.
               </p>
-              <a href="https://github.com/dylankfernandes/adult-income-knn/blob/master/adult-income.ipynb" className="special">
+              <a target="_blank" rel="noopener noreferrer" href="https://github.com/dylankfernandes/adult-income-knn/blob/master/adult-income.ipynb" className="special">
                 Learn more
               </a>
             </article>
             <article>
-              <a href="https://github.com/dylankfernandes/calcofi-linear-regression/blob/master/water-salinity-temperature.ipynb" className="image">
+              <a target="_blank" rel="noopener noreferrer" href="https://github.com/dylankfernandes/calcofi-linear-regression/blob/master/water-salinity-temperature.ipynb" className="image">
                 {/* <img src={pic5} alt="" /> */}
               </a>
               <h3 className="major">CalCOFI Linear Regression</h3>
               <p>
                 Predicting the salinity of water based on other features.
               </p>
-              <a href="https://github.com/dylankfernandes/calcofi-linear-regression/blob/master/water-salinity-temperature.ipynb" className="special">
+              <a target="_blank" rel="noopener noreferrer" href="https://github.com/dylankfernandes/calcofi-linear-regression/blob/master/water-salinity-temperature.ipynb" className="special">
                 Learn more
               </a>
             </article>
@@ -220,50 +220,50 @@ const IndexPage = () => (
           <h3>Projects</h3>
           <section className="features">
             <article>
-              <a href="http://ilite.us/" className="image">
+              <a target="_blank" rel="noopener noreferrer" href="http://ilite.us/" className="image">
                 {/* <img src={pic4} alt="" /> */}
               </a>
               <h3 className="major">ILITE Robotics</h3>
               <p>
                 Led a web development sub-team of my high school's robotics team to build a new website.
               </p>
-              <a href="http://ilite.us/" className="special">
+              <a target="_blank" rel="noopener noreferrer" href="http://ilite.us/" className="special">
                 Learn more
               </a>
             </article>
             <article>
-              <a href="https://github.com/dylankfernandes/df-zimu" className="image">
+              <a target="_blank" rel="noopener noreferrer" href="https://github.com/dylankfernandes/df-zimu" className="image">
                 {/* <img src={pic5} alt="" /> */}
               </a>
               <h3 className="major">ZIMU</h3>
               <p>
                 A recreation of a design I found on Dribble, put into code.
               </p>
-              <a href="https://github.com/dylankfernandes/df-zimu" className="special">
+              <a target="_blank" rel="noopener noreferrer" href="https://github.com/dylankfernandes/df-zimu" className="special">
                 Learn more
               </a>
             </article>
             <article>
-              <a href="https://nasa-image-search-r.herokuapp.com/" className="image">
+              <a target="_blank" rel="noopener noreferrer" href="https://nasa-image-search-r.herokuapp.com/" className="image">
                 {/* <img src={pic5} alt="" /> */}
               </a>
               <h3 className="major">NASA Image Search</h3>
               <p>
                 Built a search engine that queries the NASA Image API.
               </p>
-              <a href="https://nasa-image-search-r.herokuapp.com/" className="special">
+              <a target="_blank" rel="noopener noreferrer" href="https://nasa-image-search-r.herokuapp.com/" className="special">
                 Learn more
               </a>
             </article>
             <article>
-              <a href="https://github.com/dylankfernandes/transactions-dashboard" className="image">
+              <a target="_blank" rel="noopener noreferrer" href="https://github.com/dylankfernandes/transactions-dashboard" className="image">
                 {/* <img src={pic5} alt="" /> */}
               </a>
               <h3 className="major">Transaction Dashboard</h3>
               <p>
                 Reads transaction histories and presents them in interactive table and chart visualizations.
               </p>
-              <a href="https://github.com/dylankfernandes/transactions-dashboard" className="special">
+              <a target="_blank" rel="noopener noreferrer" href="https://github.com/dylankfernandes/transactions-dashboard" className="special">
                 Learn more
               </a>
             </article>

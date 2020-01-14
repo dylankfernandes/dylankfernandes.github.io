@@ -44,7 +44,7 @@ const IndexPage = () => (
               passion for programmer, movies, sports, weight lifting,
               teaching, and writing. Interested? Catch my resume down below.
             </p>
-            <a href={resume} className="special">
+            <a href={resume} target="_blank" rel="noopener noreferrer" className="special">
               My Resume
             </a>
           </div>
@@ -79,7 +79,7 @@ const IndexPage = () => (
             <p>
               I'm a movie detente, weight lifting fanatic,
               baseball and tennis player, and former blogger. I've also
-              got an impossible list (concept desribed here <a href="https://collegeinfogeek.com/about/meet-the-author/my-impossible-list/">here</a>)
+              got an impossible list (concept desribed <a href="https://collegeinfogeek.com/about/meet-the-author/my-impossible-list/">here</a>)
               that will give you a better look at who I am.
             </p>
             <Link className='special' to='/Generic'>Learn more about me</Link>
@@ -96,45 +96,45 @@ const IndexPage = () => (
           </p>
           <section className="features">
             <article>
-              <a href="https://medium.com/swlh/become-10x-more-productive-kill-your-distractions-and-improve-your-focus-ddfa6c7397c8" className="image">
+              <a target="_blank" rel="noopener noreferrer" href="https://medium.com/swlh/become-10x-more-productive-kill-your-distractions-and-improve-your-focus-ddfa6c7397c8" className="image">
                 <img src={blogimg1} alt="" />
               </a>
               <h3 className="major">Become 10x more productive — kill your distractions and improve your focus</h3>
-              <a href="https://medium.com/swlh/become-10x-more-productive-kill-your-distractions-and-improve-your-focus-ddfa6c7397c8" className="special">
+              <a target="_blank" rel="noopener noreferrer" href="https://medium.com/swlh/become-10x-more-productive-kill-your-distractions-and-improve-your-focus-ddfa6c7397c8" className="special">
                 Learn more
               </a>
             </article>
             <article>
-              <a href="https://medium.com/swlh/how-to-take-on-the-day-maximize-your-motivation-with-your-morning-routine-c1c3663eef54" className="image">
+              <a target="_blank" rel="noopener noreferrer" href="https://medium.com/swlh/how-to-take-on-the-day-maximize-your-motivation-with-your-morning-routine-c1c3663eef54" className="image">
                 <img src={blogimg2} alt="" />
               </a>
               <h3 className="major">How to take on the day — maximize your motivation with your morning routine</h3>
-              <a href="https://medium.com/swlh/how-to-take-on-the-day-maximize-your-motivation-with-your-morning-routine-c1c3663eef54" className="special">
+              <a target="_blank" rel="noopener noreferrer" href="https://medium.com/swlh/how-to-take-on-the-day-maximize-your-motivation-with-your-morning-routine-c1c3663eef54" className="special">
                 Learn more
               </a>
             </article>
             <article>
-              <a href="https://medium.com/@dylan.fernandes00/a-complete-guide-to-staying-organized-for-students-33866af5b326" className="image">
+              <a target="_blank" rel="noopener noreferrer" href="https://medium.com/@dylan.fernandes00/a-complete-guide-to-staying-organized-for-students-33866af5b326" className="image">
                 <img src={blogimg3} alt="" />
               </a>
               <h3 className="major">A Complete Guide To Staying Organized for Students</h3>
-              <a href="https://medium.com/@dylan.fernandes00/a-complete-guide-to-staying-organized-for-students-33866af5b326" className="special">
+              <a target="_blank" rel="noopener noreferrer" href="https://medium.com/@dylan.fernandes00/a-complete-guide-to-staying-organized-for-students-33866af5b326" className="special">
                 Learn more
               </a>
             </article>
             <article>
-              <a href="https://medium.com/@dylan.fernandes00/warren-buffetts-productivity-hack-for-prioritization-2d2b9b9383a9" className="image">
+              <a target="_blank" rel="noopener noreferrer" href="https://medium.com/@dylan.fernandes00/warren-buffetts-productivity-hack-for-prioritization-2d2b9b9383a9" className="image">
                 <img src={blogimg4} alt="" />
               </a>
               <h3 className="major">Warren Buffett’s Productivity Hack for Prioritization</h3>
-              <a href="https://medium.com/@dylan.fernandes00/warren-buffetts-productivity-hack-for-prioritization-2d2b9b9383a9" className="special">
+              <a target="_blank" rel="noopener noreferrer" href="https://medium.com/@dylan.fernandes00/warren-buffetts-productivity-hack-for-prioritization-2d2b9b9383a9" className="special">
                 Learn more
               </a>
             </article>
           </section>
           <ul className="actions">
             <li>
-              <a href="https://medium.com/@dylan.fernandes00" className="button">
+              <a target="_blank" rel="noopener noreferrer" href="https://medium.com/@dylan.fernandes00" className="button">
                 Browse All
               </a>
             </li>
